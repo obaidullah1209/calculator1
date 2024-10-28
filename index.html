@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Obaid calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input type="text" disabled placeholder="Numbers..." id="input" />
+        </div>
+    
+        <div class="body">
+            <table>
+                <tr>
+                    <td onclick="inputValue(7)">7</td>
+                    <td onclick="inputValue(8)">8</td>
+                    <td onclick="inputValue(9)">9</td>
+                    <td class="operator" onclick="inputValue('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(4)">4</td>
+                    <td onclick="inputValue(5)">5</td>
+                    <td onclick="inputValue(6)">6</td>
+                    <td class="operator" onclick="inputValue('*')">*</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(1)">1</td>  
+                    <td onclick="inputValue(2)">2</td>
+                    <td onclick="inputValue(3)">3</td>
+                    <td class="operator" onclick="inputValue('/')">/</td> 
+                </tr>
+                <tr>
+                    <td onclick="inputValue(0)">0</td>
+                    <td onclick="inputValue('00')">00</td>
+                    <td onclick="inputValue('.')">.</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td onclick="clearLast()" class="clear">C</td>
+                    <td onclick="allClear()" class="clear">AC</td>
+                    <td onclick="result()" class="equal" colspan="2">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    
+    
+  </body>
+<script src="./app.js"></script>
+</html> 
